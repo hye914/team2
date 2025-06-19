@@ -178,7 +178,7 @@ function UserDetail() {
                   textAnchor="end"
                   tickFormatter={(label) => {
                     const [date, time] = label.split(' ');
-                    const [_, month, day] = date.split('-');
+                    const [, month, day] = date.split('-');
                     return `${month}-${day} ${time}`;
                   }}
                 />
